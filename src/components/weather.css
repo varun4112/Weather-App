@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    color: black;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    width: 500px;
+    height: 550x;
+    margin: auto;
+    padding: 45px;
+    margin-top:20px ;
+    margin-bottom: 75px;
+    border-radius: 12px;
+    background-color: white;
+}
+
+.top-bar{
+    display: flex;
+    justify-content: center;
+}
+
+.cityInput{
+    width: 70%;
+    border-radius: 40px;
+    background-color: #ebfffc;
+    border: none;
+    margin-right: 5px ;
+    padding: 10px;
+}
+.top-bar button{
+    border-radius: 40px;
+    color: white;
+}
+
+.weather-image{
+    text-align: center;
+}
+
+.weather-image img{
+width: 150px;
+}
+
+.weather-temp h1{
+    font-size: 50px;
+}
+
+.wind-speed img{
+    height: 50px;
+    margin: 10px;
+}
+
+.humidity img{
+    height: 50px;
+    margin: 10px;
+}
+
+.element{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width:400px) {
+    .container{
+        width: 350px;
+        height: 550x;
+        margin: auto;
+        padding: 20px;
+        margin-top:20px ;
+        margin-bottom: 75px;
+        border-radius: 12px;
+        background-color: white;
+    }
+
+    
+}
